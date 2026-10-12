@@ -1,0 +1,13 @@
+format = 2
+name = "australlis.shell"
+version = "0.0.1"
+type = "exec"
+output = "shell.exec"
+sources = ["./program.hy"]
+project_references = []
+
+[package]
+id = "australlis.shell"
+description = ""
+authors = ["Aurora Softwares"]
+license = "MIT"
