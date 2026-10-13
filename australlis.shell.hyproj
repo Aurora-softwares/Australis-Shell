@@ -2,7 +2,7 @@ format = 2
 name = "australlis.shell"
 version = "0.0.1"
 type = "exec"
-output = "shell.exec"
+output = "system/Core/CommandShell.exec"
 sources = ["./program.hy"]
 project_references = []
 

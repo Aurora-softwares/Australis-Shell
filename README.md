@@ -1,7 +1,11 @@
 # Australis command shell
 
 The normal command shell is a userland program, `CommandShell.exec`. Its
-source project is in this repository, but `program.hy` is currently empty.
+source project now builds a small interactive preview with `help` and `exit`.
+Normal boot starts it through `System.exec`; it can also be launched from KMon
+with `run /System/Core/CommandShell.exec`. External command launch is the next
+runtime milestone, so this preview does not yet satisfy the completion gate.
+Run `make test-userland-shell-preview` for its hosted input/help/exit check.
 The interactive `kmon>` shell running today is kernel-owned recovery
 infrastructure; it is retained until the userland shell passes its boot tests.
 
