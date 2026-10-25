@@ -1,5 +1,5 @@
 format = 2
-name = "australlis.shell"
+name = "Australis.Shell"
 version = "0.0.1"
 type = "exec"
 output = "system/Core/CommandShell.exec"
@@ -7,7 +7,7 @@ sources = ["./program.hy"]
 project_references = []
 
 [package]
-id = "australlis.shell"
+id = "australis.shell"
 description = ""
 authors = ["Aurora Softwares"]
 license = "MIT"
