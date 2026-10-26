@@ -1,9 +1,11 @@
 format = 2
-name = "Australis.Shell"
+name = "Australis Shell"
 version = "0.0.1"
 type = "exec"
 output = "system/Core/CommandShell.exec"
-sources = ["./program.hy"]
+sources = [
+	"./program.hy"
+]
 project_references = []
 
 [package]
